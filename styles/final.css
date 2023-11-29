@@ -1,0 +1,47 @@
+.button-success,
+.button-error,
+.button-warning,
+.button-secondary {
+    color: white;
+    border-radius: 10% 10px;
+    padding: 20px 30px
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    height: 30px;
+    position: relative;}
+    .vertical-center {
+     margin: 0;
+     position: absolute;
+     top: 50%;
+    -ms-transform: translateY(-50%);
+     transform: translateY(-50%);
+}    
+.button-success {
+    background: rgb(184, 28, 184);
+    /* this is a pink */
+}
+    .button-error {
+    background: rgb(207, 110, 168);
+    /* this is a maroon */
+}
+    .button-warning {
+    background: rgb(207, 110, 168);
+    /* this is an orange */
+}
+    .button-secondary {
+    background: rgb(207, 110, 168);
+    /* this is a light blue */
+}
+.button-small {font-size 85%;}
+.h1 {font-size: 50%;}
+
+.jellyfish {
+    background-image: url(../images/jellyfish.jpeg);
+ height: 400px;
+ background-size: cover ;
+ background-repeat: no-repeat;
+ background-position: center;   
+}
+.loki {
+    padding-left: 10px;
+    box-sizing: border-box;
+}
